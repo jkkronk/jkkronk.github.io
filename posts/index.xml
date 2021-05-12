@@ -6,15 +6,24 @@
     <description>Recent content in Posts on Home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 28 Sep 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://jkkronk.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 12 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://jkkronk.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Creating a New Theme</title>
-      <link>https://jkkronk.github.io/2014/creating-a-new-theme/</link>
-      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
+      <title>Hello World</title>
+      <link>https://jkkronk.github.io/2021/creating-a-new-theme/</link>
+      <pubDate>Wed, 12 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://jkkronk.github.io/2014/creating-a-new-theme/</guid>
-      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
-We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
+      <guid>https://jkkronk.github.io/2021/creating-a-new-theme/</guid>
+      <description>Hello World Here I will hopefully write posts about stuff.</description>
+    </item>
+    
+    <item>
+      <title>ISMRM 2021 Highlight</title>
+      <link>https://jkkronk.github.io/2021/ismrm/</link>
+      <pubDate>Wed, 12 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://jkkronk.github.io/2021/ismrm/</guid>
+      <description>ISMRM 2021 Highlights! Here I will hopefully write stuff that I found interesting at ISMRM 2021.
+Saturday Sunday Monday Tuesday Wednesday </description>
     </item>
     
   </channel>
