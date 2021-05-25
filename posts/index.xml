@@ -8,22 +8,13 @@
     <language>en</language>
     <lastBuildDate>Wed, 12 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://jkkronk.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Hello World</title>
-      <link>https://jkkronk.github.io/2021/creating-a-new-theme/</link>
-      <pubDate>Wed, 12 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://jkkronk.github.io/2021/creating-a-new-theme/</guid>
-      <description>Hello World Here I will hopefully write posts about stuff.</description>
-    </item>
-    
-    <item>
       <title>ISMRM 2021 Highlight</title>
       <link>https://jkkronk.github.io/2021/ismrm/</link>
       <pubDate>Wed, 12 May 2021 00:00:00 +0000</pubDate>
       
       <guid>https://jkkronk.github.io/2021/ismrm/</guid>
-      <description>ISMRM 2021 Highlights! Here I will hopefully write stuff that I found interesting at ISMRM 2021.
-Saturday Sunday Monday Tuesday Wednesday </description>
+      <description>ISMRM 2021 Highlights Hi all!
+This post lists my highlights and comments on ISMRM 2021 as an engineer and first-year PhD student in biomedical imaging interested in MR reconstruction. ISRMRM 2021 is an MR imaging conference where researchers from varying backgrounds, physics, medicine, biology and engineering, meet to discuss MRI. My interests are within reconstruction and ml. Hence I mainly attended the sessions linked to these, and my list is for sure biased towards the engineering perspective.</description>
     </item>
     
   </channel>

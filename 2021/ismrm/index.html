@@ -11,7 +11,7 @@
   
   
   
-  <link rel="next" href="https://jkkronk.github.io/2021/creating-a-new-theme/" />
+  
   <link rel="canonical" href="https://jkkronk.github.io/2021/ismrm/" />
   <link rel='shortcut icon' type='image/x-icon' href='/favicon.ico' />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -36,8 +36,8 @@
 
   <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="ISMRM 2021 Highlight"/>
-<meta name="twitter:description" content="ISMRM 2021 Highlights! Here I will hopefully write stuff that I found interesting at ISMRM 2021.
-Saturday Sunday Monday Tuesday Wednesday "/>
+<meta name="twitter:description" content="ISMRM 2021 Highlights Hi all!
+This post lists my highlights and comments on ISMRM 2021 as an engineer and first-year PhD student in biomedical imaging interested in MR reconstruction. ISRMRM 2021 is an MR imaging conference where researchers from varying backgrounds, physics, medicine, biology and engineering, meet to discuss MRI. My interests are within reconstruction and ml. Hence I mainly attended the sessions linked to these, and my list is for sure biased towards the engineering perspective."/>
 
   <script type="application/ld+json">
 {
@@ -56,7 +56,7 @@ Saturday Sunday Monday Tuesday Wednesday "/>
   },
   "genre": "posts",
   
-  "wordcount":  21 ,
+  "wordcount":  652 ,
   "url": "https:\/\/jkkronk.github.io\/2021\/ismrm\/",
   "datePublished": "2021-05-12T00:00:00\u002b00:00",
   "dateModified": "2021-05-12T00:00:00\u002b00:00",
@@ -136,12 +136,14 @@ Saturday Sunday Monday Tuesday Wednesday "/>
                 in
                 
                 <i class="iconfont icon-timer"></i>
-                1 min
+                4 min
         </div>
     </header>
     <div class="post-content">
         
 
+        
+            
         
 
         
@@ -155,13 +157,29 @@ Saturday Sunday Monday Tuesday Wednesday "/>
           
           
 
-          <h2 id="ismrm-2021-highlights">ISMRM 2021 Highlights!</h2>
-<p>Here I will hopefully write stuff that I found interesting at ISMRM 2021.</p>
-<h2 id="saturday">Saturday</h2>
-<h2 id="sunday">Sunday</h2>
-<h2 id="monday">Monday</h2>
-<h2 id="tuesday">Tuesday</h2>
-<h2 id="wednesday">Wednesday</h2>
+          <p><img src="/images/blog/ISMRM21.jpeg" alt="alttext" title="ISMRM_header"></p>
+<h2 id="ismrm-2021-highlights">ISMRM 2021 Highlights</h2>
+<p>Hi all!</p>
+<p>This post lists my highlights and comments on ISMRM 2021 as an engineer and first-year PhD student in biomedical imaging interested in MR reconstruction. ISRMRM 2021 is an MR imaging conference where researchers from varying backgrounds, physics, medicine, biology and engineering, meet to discuss MRI. My interests are within reconstruction and ml. Hence I mainly attended the sessions linked to these, and my list is for sure biased towards the engineering perspective.</p>
+<h4 id="how-to-translate-ml-into-the-clinic---shreyas-vasanawala">How to translate ML into the clinic - Shreyas Vasanawala</h4>
+<p>On the first day of the conference, Vasanawala from Stanford gave a brilliant talk about integrating ml in all steps of the medical imaging pipeline, from scheduling through reconstruction to image processing. He first stated that ml is not typically used in clinical practice but then gave many examples of integrating it in practice. One example of exciting work he mentioned was “One-Click Spine MRI”, where HeartVista shows an automatic process for spine MRI scan prescription.</p>
+<h4 id="results-of-the-2020-fastmri-brain-reconstruction-challenge---bruno-riemenschneider">Results of the 2020 fastMRI Brain Reconstruction Challenge - Bruno Riemenschneider</h4>
+<p>FastMRI, the main accelerated reconstruction challenge for MRI, presented the 2020 results. We note that again this year, supervised unrolled methods with data consistency term and CNNs seem to dominate and top participate show impressive performance. The main takeaways from the 2020 challenge are that the reconstructions are typically high performing for 4x track but occasionally fail for 8x and transfer track. Additionally, there are some halluinations occurring from presented models, which might not be acceptable for clinical use.</p>
+<h4 id="post-processing-based-motion-compensation---hosung-kim">Post-Processing-Based Motion Compensation - Hosung Kim</h4>
+<p>In this great tutorial on motion artefacts, a correction technique with simple regression CNN or GANs was presented. Real data with motion artefacts for training ml models are hard to collect. What is typically done is instead to, in kspace, patch several different acquisitions. This way, kspace is containing data with simulated motions. In this talk, they also presented how to use phase shifts in kspace and cycle GAN to simulate artefacts.</p>
+<h4 id="on-instabilities-of-conventional-multi-coil-mri-reconstruction-to-small-adversarial-perturbations---chi-zhang">On Instabilities of Conventional Multi-Coil MRI Reconstruction To Small Adversarial Perturbations - Chi Zhang</h4>
+<p>Recently, work shows that dl-based reconstruction is suspectable to small perturbations, causing the reconstruction to fail. These results are worrying since, if implemented in clinical practice, reconstruction models need to be robust. However, in this oral presentation, we saw that conventional multi-coil reconstruction is also suspectable to adversarial perturbations in this oral presentation.</p>
+<h4 id="rethinking-complex-image-reconstruction--loss-for-improved-complex-image-reconstruction-with-deep-learning---maarten-terpstra">Rethinking complex image reconstruction: ⟂-loss for improved complex image reconstruction with deep learning - Maarten Terpstra</h4>
+<p>Typical ml methods usually work with real-valued data. However, in MRI reconstruction, networks need to handle complex-valued data. I think there can be more research on performance and stability using neural networks with complex-valued data. This might lead to higher performance for both reconstruction and also downstream analysis. Terpstra proposes to use a perpendicular loss, instead of l2-loss, for complex-valued neural networks.</p>
+<h4 id="can-un-trained-networks-compete-with-trained-ones-for-accelerated-mri---mohammad-zalbagi-darestani">Can Un-trained Networks Compete with Trained Ones for Accelerated MRI? - Mohammad Zalbagi Darestani</h4>
+<p>In 2018, Dmitry Ulyanov presented a novel method, using CNNs, for inverse problems that did not require any training data. In short, CNN parameters are trained to fit the test data and then by early stopping, a reconstructed image attained. These methods have lately been proposed for MRI reconstruction with great results, beating supervised baselines like U-Net. The advantage is that no training data is needed, and this might be a foundation for future semi-supervised methods.</p>
+<h3 id="summary">Summary:</h3>
+<p>There were many virtual presentations at ISMRM 2021, and this post lists just a few that I found interesting. I am sure I have missed commenting on great presentations, don’t hesitate to reach out if you have opinions or just want to chat.</p>
+<p>Take care!
+//Jonatan</p>
+<h3 id="dont-miss">Don’t miss:</h3>
+<h4 id="a-sip-in-the-bore-how-to-make-coffee-with-an-mri-system---michael-bock">A Sip in the Bore: How to Make Coffee with an MRI System - Michael Bock</h4>
+<p>This funny poster shows how to build (an expensive and inefficient) coffee maker. Turn your MRI into a coffee machine today!</p>
 
     </div>
 
@@ -175,7 +193,7 @@ Saturday Sunday Monday Tuesday Wednesday "/>
            
             <p class="copyright-item">
                     <span>Words:</span>
-                   <span>21</span>
+                   <span>652</span>
             </p>
             
             <p class="copyright-item">
@@ -239,27 +257,11 @@ Saturday Sunday Monday Tuesday Wednesday "/>
     <div class="post-nav">
          
         
-        <a href="https://jkkronk.github.io/2021/creating-a-new-theme/" class="next" rel="next" title="Hello World">Hello World&nbsp;<i class="iconfont icon-xiaojiantou"></i></a>
-        
     </div>
 
     <div class="post-comment">
           
-          <div id="disqus_thread"></div>
-  <script type="text/javascript">
-      (function() {
           
-          
-          if (window.location.hostname == "localhost")
-              return;
-          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-          var disqus_shortname = 'yourdiscussshortname';
-          dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-      })();
-  </script>
-  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-  <a href="https://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 
  
 
@@ -294,8 +296,9 @@ Saturday Sunday Monday Tuesday Wednesday "/>
 
 
     
-    
-    <script src="/js/vendor_no_gallery.min.js" async=""></script>
+    <link crossorigin="anonymous" integrity="sha384-yziQACfvCVwLqVFLqkWBYRO3XeA4EqzfXKGwaWnenYn5XzqfJFlFdKEmvutIQdKb" href="https://lib.baomitu.com/lightgallery/1.10.0/css/lightgallery.min.css" rel="stylesheet">
+      
+     <script src="/js/vendor_gallery.min.js" async="" ></script>
     
   
 
