@@ -6,14 +6,14 @@
     <description>Recent content in Posts on Home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 12 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://jkkronk.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 08 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://jkkronk.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Accelerated MRI papers</title>
       <link>https://jkkronk.github.io/2021/080621/</link>
-      <pubDate>Wed, 12 May 2021 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 08 Jun 2021 00:00:00 +0000</pubDate>
       
       <guid>https://jkkronk.github.io/2021/080621/</guid>
-      <description>Awesome Accelerated-MRI-Reconstruction-Papers Hey, I came across awesome git repos listing ml papers on different topics. Here are two examples: https://github.com/xiaomengyc/Few-Shot-Semantic-Segmentation-Papers and https://github.com/hoya012/awesome-anomaly-detection. Other people also find these curated lists awesome since there is a couple of hundreds of forks and thousands of stars. Since I couldn&amp;rsquo;t find any on Accelerated MRI reconstruction, I took the time and created my own curated list. Enjoy it here: https://github.com/jkkronk/MRI-Reconstruction-Papers
+      <description>Awesome Accelerated-MRI-Reconstruction-Papers Hey, I came across awesome git repos listing ml papers on different topics. Here are two examples: link and link. Other people also find these curated lists awesome since there is a couple of hundreds of forks and thousands of stars. Since I couldn&amp;rsquo;t find any on Accelerated MRI reconstruction, I took the time and created my own curated list. Enjoy it here
 Cheers, Jonatan</description>
     </item>
     
