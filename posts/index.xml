@@ -6,7 +6,18 @@
     <description>Recent content in Posts on Home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 08 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://jkkronk.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 13 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://jkkronk.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SVGD Toy example</title>
+      <link>https://jkkronk.github.io/2021/svgd/</link>
+      <pubDate>Mon, 13 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://jkkronk.github.io/2021/svgd/</guid>
+      <description>Toy example: Stein Variational Gradient Descent: A General Purpose Bayesian Inference Algorithm Intro Stein Variational Gradient Descent (SVGD) is a variational inference algorithms that by solving a deterministic optimisation problem seek to create a set of samples from an untraceable posterior distribution. More specifically SVGD tries to transform a set of initial random particles to match the posterior distribution.
+You can read more in the original paper: https://arxiv.org/abs/1608.04471
+I coded a toy example to understand SVGD deeper.</description>
+    </item>
+    
     <item>
       <title>Accelerated MRI papers</title>
       <link>https://jkkronk.github.io/2021/080621/</link>

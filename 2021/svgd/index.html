@@ -10,9 +10,9 @@
   
   
   
-  <link rel="prev" href="https://jkkronk.github.io/2021/ismrm/" />
+  <link rel="prev" href="https://jkkronk.github.io/2021/080621/" />
   
-  <link rel="canonical" href="https://jkkronk.github.io/2021/080621/" />
+  <link rel="canonical" href="https://jkkronk.github.io/2021/svgd/" />
   <link rel='shortcut icon' type='image/x-icon' href='/favicon.ico' />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -24,10 +24,10 @@
   <title>
        
        
-           Accelerated MRI papers | Home
+           SVGD Toy example | Home
        
   </title>
-  <meta name="title" content="Accelerated MRI papers | Home">
+  <meta name="title" content="SVGD Toy example | Home">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -35,18 +35,19 @@
 
 
   <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Accelerated MRI papers"/>
-<meta name="twitter:description" content="Awesome Accelerated-MRI-Reconstruction-Papers Hey, I came across awesome git repos listing ml papers on different topics. Here are two examples: link and link. Other people also find these curated lists awesome since there is a couple of hundreds of forks and thousands of stars. Since I couldn&rsquo;t find any on Accelerated MRI reconstruction, I took the time and created my own curated list. Enjoy it here
-Cheers, Jonatan"/>
+<meta name="twitter:title" content="SVGD Toy example"/>
+<meta name="twitter:description" content="Toy example: Stein Variational Gradient Descent: A General Purpose Bayesian Inference Algorithm Intro Stein Variational Gradient Descent (SVGD) is a variational inference algorithms that by solving a deterministic optimisation problem seek to create a set of samples from an untraceable posterior distribution. More specifically SVGD tries to transform a set of initial random particles to match the posterior distribution.
+You can read more in the original paper: https://arxiv.org/abs/1608.04471
+I coded a toy example to understand SVGD deeper."/>
 
   <script type="application/ld+json">
 {
   "@context": "http://schema.org",
   "@type": "BlogPosting",
-  "headline": "Accelerated MRI papers",
+  "headline": "SVGD Toy example",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https:\/\/jkkronk.github.io\/2021\/080621\/"
+    "@id": "https:\/\/jkkronk.github.io\/2021\/svgd\/"
   },
   "image": {
     "@type": "ImageObject",
@@ -56,10 +57,10 @@ Cheers, Jonatan"/>
   },
   "genre": "posts",
   
-  "wordcount":  67 ,
-  "url": "https:\/\/jkkronk.github.io\/2021\/080621\/",
-  "datePublished": "2021-06-08T00:00:00\u002b00:00",
-  "dateModified": "2021-06-08T00:00:00\u002b00:00",
+  "wordcount":  98 ,
+  "url": "https:\/\/jkkronk.github.io\/2021\/svgd\/",
+  "datePublished": "2021-09-13T00:00:00\u002b00:00",
+  "dateModified": "2021-09-13T00:00:00\u002b00:00",
   
   "publisher": {
     "@type": "Organization",
@@ -127,11 +128,11 @@ Cheers, Jonatan"/>
       		
 <article class="post-warp">
     <header class="post-header">
-        <h1 class="post-title">Accelerated MRI papers</h1>
+        <h1 class="post-title">SVGD Toy example</h1>
         <div class="post-meta">
             Written by <a href="https://jkkronk.github.io" rel="author">map[name:Jonatan Kronander]</a> with ♥ 
                 <span class="post-time">
-                    on <time datetime=2021-06-08 >8 June 2021</time>
+                    on <time datetime=2021-09-13 >13 September 2021</time>
                 </span>
                 in
                 
@@ -142,8 +143,6 @@ Cheers, Jonatan"/>
     <div class="post-content">
         
 
-        
-            
         
 
         
@@ -157,12 +156,12 @@ Cheers, Jonatan"/>
           
           
 
-          <h2 id="awesome-accelerated-mri-reconstruction-papers">Awesome Accelerated-MRI-Reconstruction-Papers</h2>
-<p>Hey,
-I came across awesome git repos listing ml papers on different topics. Here are two examples: <a href="https://github.com/xiaomengyc/Few-Shot-Semantic-Segmentation-Papers">link</a> and <a href="https://github.com/hoya012/awesome-anomaly-detection">link</a>. Other people also find these curated lists awesome since there is a couple of hundreds of forks and thousands of stars. Since I couldn&rsquo;t find any on Accelerated MRI reconstruction, I took the time and created my own curated list. Enjoy it <a href="https://github.com/jkkronk/MRI-Reconstruction-Papers">here</a></p>
-<p><img src="/images/blog/sneakpeak_awesome.jpeg" alt="alttext" title="sneakpeak"></p>
-<p>Cheers,
-Jonatan</p>
+          <h2 id="toy-example-stein-variational-gradient-descent-a-general-purpose-bayesian-inference-algorithm">Toy example: Stein Variational Gradient Descent: A General Purpose Bayesian Inference Algorithm</h2>
+<h5 id="intro">Intro</h5>
+<p>Stein Variational Gradient Descent (SVGD) is a variational inference algorithms that by solving a deterministic optimisation problem  seek to create a set of samples from an untraceable posterior distribution. More specifically SVGD tries to transform a set of initial random particles to match the posterior distribution.</p>
+<p>You can read more in the original paper: <a href="https://arxiv.org/abs/1608.04471">https://arxiv.org/abs/1608.04471</a></p>
+<p>I coded a toy example to understand SVGD deeper. You can find the code here <a href="https://github.com/jkkronk/toy_svgd/blob/main/toy_svgd.ipynb">https://github.com/jkkronk/toy_svgd/blob/main/toy_svgd.ipynb</a> or use the google colab to play around with hyper parameters here <a href="https://colab.research.google.com/drive/1FPAkreW7eGq_CUG3slAgNtUODD5rTozA#scrollTo=_Ua9iOMMVnY-">https://colab.research.google.com/drive/1FPAkreW7eGq_CUG3slAgNtUODD5rTozA#scrollTo=_Ua9iOMMVnY-</a></p>
+<p>Enjoy!</p>
 
     </div>
 
@@ -176,7 +175,7 @@ Jonatan</p>
            
             <p class="copyright-item">
                     <span>Words:</span>
-                   <span>67</span>
+                   <span>98</span>
             </p>
             
             <p class="copyright-item">
@@ -185,25 +184,25 @@ Jonatan</p>
                 <span>
 
       
-        <a href="//twitter.com/share?url=https%3a%2f%2fjkkronk.github.io%2f2021%2f080621%2f&amp;text=Accelerated%20MRI%20papers&amp;via=JKronander" target="_blank" title="Share on Twitter">
+        <a href="//twitter.com/share?url=https%3a%2f%2fjkkronk.github.io%2f2021%2fsvgd%2f&amp;text=SVGD%20Toy%20example&amp;via=JKronander" target="_blank" title="Share on Twitter">
           <i class="iconfont icon-twitter"></i>
         </a>
         
       
       
-        <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fjkkronk.github.io%2f2021%2f080621%2f" target="_blank" title="Share on Facebook">
+        <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fjkkronk.github.io%2f2021%2fsvgd%2f" target="_blank" title="Share on Facebook">
           <i class="iconfont icon-facebook"></i>
         </a>
         
       
       
-        <a href="//reddit.com/submit?url=https%3a%2f%2fjkkronk.github.io%2f2021%2f080621%2f&amp;title=Accelerated%20MRI%20papers" target="_blank" title="Share on Reddit">
+        <a href="//reddit.com/submit?url=https%3a%2f%2fjkkronk.github.io%2f2021%2fsvgd%2f&amp;title=SVGD%20Toy%20example" target="_blank" title="Share on Reddit">
           <i class="iconfont icon-reddit"></i>
         </a>
         
       
       
-        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fjkkronk.github.io%2f2021%2f080621%2f&amp;title=Accelerated%20MRI%20papers" target="_blank" title="Share on LinkedIn">
+        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fjkkronk.github.io%2f2021%2fsvgd%2f&amp;title=SVGD%20Toy%20example" target="_blank" title="Share on LinkedIn">
           <i class="iconfont icon-linkedin"></i>
         </a>
         
@@ -239,7 +238,7 @@ Jonatan</p>
 
     <div class="post-nav">
         
-        <a href="https://jkkronk.github.io/2021/ismrm/" class="prev" rel="prev" title="ISMRM 2021 Highlight"><i class="iconfont icon-dajiantou"></i>&nbsp;ISMRM 2021 Highlight</a>
+        <a href="https://jkkronk.github.io/2021/080621/" class="prev" rel="prev" title="Accelerated MRI papers"><i class="iconfont icon-dajiantou"></i>&nbsp;Accelerated MRI papers</a>
          
         
     </div>
@@ -281,9 +280,8 @@ Jonatan</p>
 
 
     
-    <link crossorigin="anonymous" integrity="sha384-yziQACfvCVwLqVFLqkWBYRO3XeA4EqzfXKGwaWnenYn5XzqfJFlFdKEmvutIQdKb" href="https://lib.baomitu.com/lightgallery/1.10.0/css/lightgallery.min.css" rel="stylesheet">
-      
-     <script src="/js/vendor_gallery.min.js" async="" ></script>
+    
+    <script src="/js/vendor_no_gallery.min.js" async=""></script>
     
   
 
