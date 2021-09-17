@@ -13,7 +13,7 @@
       <pubDate>Mon, 13 Sep 2021 00:00:00 +0000</pubDate>
       
       <guid>https://jkkronk.github.io/2021/svgd/</guid>
-      <description>Toy example: Stein Variational Gradient Descent: A General Purpose Bayesian Inference Algorithm Intro Stein Variational Gradient Descent (SVGD) is a variational inference algorithms that by solving a deterministic optimisation problem seek to create a set of samples from an untraceable posterior distribution. More specifically SVGD tries to transform a set of initial random particles to match the posterior distribution.
+      <description>Toy example: Stein Variational Gradient Descent: A General Purpose Bayesian Inference Algorithm Intro Stein Variational Gradient Descent (SVGD) is a variational inference algorithm that by solving a deterministic optimisation problem seek to create a set of samples from an untraceable posterior distribution. More specifically SVGD tries to transform a set of initial random particles to match the posterior distribution.
 You can read more in the original paper: https://arxiv.org/abs/1608.04471
 I coded a toy example to understand SVGD deeper.</description>
     </item>
@@ -34,8 +34,7 @@ Cheers, Jonatan</description>
       <pubDate>Wed, 12 May 2021 00:00:00 +0000</pubDate>
       
       <guid>https://jkkronk.github.io/2021/ismrm/</guid>
-      <description>ISMRM 2021 Highlights Hi all!
-This post lists my highlights and comments on ISMRM 2021 as an engineer and first-year PhD student in biomedical imaging interested in MR reconstruction. ISRMRM 2021 is an MR imaging conference where researchers from varying backgrounds, physics, medicine, biology and engineering, meet to discuss MRI. My interests are within reconstruction and ml. Hence I mainly attended the sessions linked to these, and my list is for sure biased towards the engineering perspective.</description>
+      <description>ISMRM 2021 Highlights How to translate ML into the clinic - Shreyas Vasanawala On the first day of the conference, Vasanawala from Stanford gave a brilliant talk about integrating ml in all steps of the medical imaging pipeline, from scheduling through reconstruction to image processing. He first stated that ml is not typically used in clinical practice but then gave many examples of integrating it in practice. One example of exciting work he mentioned was “One-Click Spine MRI”, where HeartVista shows an automatic process for spine MRI scan prescription.</description>
     </item>
     
   </channel>
